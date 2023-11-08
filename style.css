@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(214, 16, 16);
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  text-align: center;
+  color: white;
+}
+input {
+  outline: one;
+  height: 2rem;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: none;
+  opacity: 0.35;
+}
+.location {
+  font-size: 70px;
+  margin-top: 32px;
+  font-style: inherit;
+}
+.date {
+  font-size: 25px;
+  margin-top: 30 px;
+}
+.temperature {
+  font-size: 4rem;
+  font-weight: 900;
+  text-shadow: 4px 5px black;
+  margin-top: 40px;
+}
+.sky {
+  font-weight: 900;
+  font-style: italic;
+}
+.other-details {
+  font-size: 25px;
+  margin-top: 35px;
+}
